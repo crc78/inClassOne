@@ -1,3 +1,37 @@
 body, html {
   font-size: 12px;
 }
+h1 {
+  text-align: center;
+}
+div.cat-info p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+}
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#copywrite {
+  font-style: italic;
+}
+#wikiCat:hover{
+  color: green;
+}
+.cat-info{
+  cursor: crosshair;
+}
+#mongoCat{
+  display: flex;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+#lookCat{
+  flex: 1;
+}
+#mongoPic{
+  flex: 2;
+}
